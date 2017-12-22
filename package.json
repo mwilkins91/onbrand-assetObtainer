@@ -1,0 +1,23 @@
+{
+  "name": "onbrand-steal",
+  "version": "1.0.0",
+  "description": "Steals assets from a site for an onbrand",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run steal",
+    "steal": "node index.js"
+  },
+  "keywords": [
+    "onbrand"
+  ],
+  "author": "Mark Wilkins <contactme@markwilkins.co> (https://www.markwilkins.co)",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^1.6.1",
+    "es6-promisify": "^5.0.0",
+    "inquirer": "^4.0.1",
+    "puppeteer": "^0.13.0",
+    "request": "^2.83.0",
+    "scssfmt": "^1.0.3"
+  }
+}
