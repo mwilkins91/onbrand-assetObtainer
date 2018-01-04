@@ -1,6 +1,6 @@
 {
   "name": "onbrand-steal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Steals assets from a site for an onbrand",
   "main": "index.js",
   "scripts": {
