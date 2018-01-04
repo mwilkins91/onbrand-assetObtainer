@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+// ^To tell bash that this is node, not... bash.
+
 const inquirer = require('inquirer');
 const promisify = require('es6-promisify');
 const fs = require('fs');

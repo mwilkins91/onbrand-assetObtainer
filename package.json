@@ -7,6 +7,9 @@
     "test": "npm run steal",
     "steal": "node index.js"
   },
+  "bin": {
+    "steal": "./index.js"
+  },
   "keywords": [
     "onbrand"
   ],
